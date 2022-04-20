@@ -80,9 +80,14 @@ class Container {
                 console.error(err)
             }
     }
+}
+
+// let contenedor = new Container('./productos.txt')
+// contenedor.save()
 
 
-    // async init(){
+
+// async init(){
     //     try {
     //         const data = await fs.promises.readFile(this.arch,"utf-8")
     //         this.lista = JSON.parse(data)
@@ -103,8 +108,3 @@ class Container {
     //         console.log(err)
     //     }
     // }
-
-}
-
-// let contenedor = new Container('./productos.txt')
-// contenedor.save()

@@ -10,8 +10,11 @@ const play = async function(){
     contenedor.getAll()
     // contenedor.deleteById(3)
     // contenedor.deleteAll()
-    
-    
+} 
+
+play()
+
+
     // const arch = new Container(productos.json)
     // await arch.init()
 
@@ -26,6 +29,3 @@ const play = async function(){
     //const borrarUno = arch.deleteById(2)
 
     //const borrarTodos = arch.deleteAll()
-} 
-
-play()
